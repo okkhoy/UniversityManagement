@@ -1,12 +1,13 @@
 package com.um.staff;
 
-public class TeachingStaff extends Staff{
+public class AdminStaff extends Staff{
 
     private int baseSalary;
+    private int multiplier;
 
     @Override
     public int calculateSalary() {
-        salary = baseSalary + getHoursClocked();
+        int salary = baseSalary + multiplier * getHoursClocked();
         return 0;
     }
 }
