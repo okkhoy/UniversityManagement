@@ -1,4 +1,4 @@
 package com.um.student;
 
-public class Student {
+public interface Student {
 }
