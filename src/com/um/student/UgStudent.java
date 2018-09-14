@@ -1,4 +1,4 @@
 package com.um.student;
 
-public class UgStudent {
+public class UgStudent implements Student {
 }
