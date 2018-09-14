@@ -1,6 +1,6 @@
 package com.um.staff;
 
-public class SupportStaff extends Staff {
+public class TempStaff extends Staff {
 
     private int baseSalary;
     private int overtimePay;
